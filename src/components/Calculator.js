@@ -37,7 +37,7 @@ const Calculator = () => {
 
   return (
     <>
-      <h1 className='border-dark shadow' style={{ backgroundColor: '#595c5e', padding: '10px', border: '2px solid black', textAlign: 'left', color: 'white'}}>
+      <h1 className='border-dark shadow' style={{ backgroundColor: '#0d81d4', padding: '10px', border: '2px solid black', textAlign: 'left', color: 'white'}}>
         Calculator
       </h1>
       <div className="container mb-3" style={{ backgroundColor: 'black', maxWidth: '35em' }}>
