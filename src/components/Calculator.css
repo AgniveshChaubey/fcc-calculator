@@ -2,12 +2,33 @@
     margin: 0;
     padding: 0;
 } */
+.col{
+    background-color: rgb(52, 46, 46);
+    border-radius: 2px;
+    color: white;
+}
+.col:hover{
+    text-shadow: 20px;
+    border: 2px solid black;
+    transition: transform .1s;
+    transform: scale(1.05);
+    background-color: grey;
+    
+}
 
 .operators{
     background-color: #00ECFF;
+    color: black;
+}
+.operators:hover{
+    background-color: #08a9b5;
 }
 
-.col{
-    border-color: black;
-    border-radius: 10px;
+
+.border{
+    color:;
+    cursor: pointer;
+    /* padding: 2px; */
+    /* margin: 2px; */
+    /* max-width:fit-content; */
 }
