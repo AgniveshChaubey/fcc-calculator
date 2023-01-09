@@ -1,7 +1,17 @@
-/* *{
+/* * {
     margin: 0;
     padding: 0;
 } */
+body{
+    background-color: rgb(197, 195, 193);
+}
+
+.container{
+    padding-top:10px;
+    margin-top: 20vh;
+    border-radius: 8px;
+}
+
 .col{
     background-color: rgb(53, 51, 51);
     border-radius: 2px;
@@ -12,7 +22,9 @@
     border: 2px solid black;
     transition: transform .1s;
     transform: scale(1.05);
-    background-color: grey;   
+    background-color: grey; 
+    color: black;
+    font-weight:bold;
 }
 
 .operators{
@@ -32,7 +44,7 @@
 #equals:hover{
     background-color: #0d81d4;
 }
-#ac{
+#clear{
     background-color: rgb(187, 12, 12);
 }
 #ac:hover{
@@ -41,9 +53,10 @@
 #display{
     text-align: right;
     color: white;
-    background-color: black;
-    padding: 10px;
     font-size: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    
 }
 
 #input{
@@ -55,4 +68,14 @@
 #output{
     background-color: rgb(0, 0, 0);
     min-height: 6vh;
+}
+
+.row{
+    border-width: 2px;
+    border-color: white;
+}
+
+
+.r{
+    border-right-color: #595c5e;
 }
