@@ -12,23 +12,34 @@
     border: 2px solid black;
     transition: transform .1s;
     transform: scale(1.05);
-    background-color: grey;
-    
+    background-color: grey;   
 }
 
 .operators{
-    background-color: #00ECFF;
-    color: black;
+    background-color: #595c5c;
 }
 .operators:hover{
-    background-color: #08a9b5;
+    background-color: #848888;
 }
 
-
 .border{
-    color:;
     cursor: pointer;
-    /* padding: 2px; */
-    /* margin: 2px; */
-    /* max-width:fit-content; */
+    
+}
+#equals{
+    background-color: #04558e;
+}
+#equals:hover{
+    background-color: #0d81d4;
+}
+#ac{
+    background-color: rgb(187, 12, 12);
+}
+#ac:hover{
+    background-color: rgb(255, 0, 0);
+}
+#display{
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 30px;
 }
